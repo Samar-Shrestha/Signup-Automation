@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Signup Test Suite]" verbose="2">
+  <listeners>
+    <listener class-name="com.theap.signup.utils.ReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Full Registration Flow(failed)" verbose="2">
+    <classes>
+      <class name="com.theap.signup.tests.SignupTest">
+        <methods>
+          <include name="fillVerificationAndPreferences"/>
+          <include name="fillAgencyDetails"/>
+          <include name="verifySuccess"/>
+          <include name="acceptTermsAndContinue"/>
+          <include name="verifyEmailOtp"/>
+          <include name="tearDown"/>
+          <include name="fillAccountSetup"/>
+          <include name="clickGetStarted"/>
+          <include name="fillProfessionalExperience"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.theap.signup.tests.SignupTest -->
+    </classes>
+  </test> <!-- Full Registration Flow(failed) -->
+</suite> <!-- Failed suite [Signup Test Suite] -->

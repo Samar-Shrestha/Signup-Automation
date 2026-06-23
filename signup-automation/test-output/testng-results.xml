@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-23T17:26:05 NPT" name="Signup Test Suite" finished-at="2026-06-23T17:27:32 NPT" duration-ms="86988">
+    <groups>
+    </groups>
+    <test started-at="2026-06-23T17:26:05 NPT" name="Full Registration Flow" finished-at="2026-06-23T17:27:32 NPT" duration-ms="86988">
+      <class name="com.theap.signup.tests.SignupTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:06 NPT" name="setUp" finished-at="2026-06-23T17:26:12 NPT" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickGetStarted()[pri:1, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:13 NPT" name="clickGetStarted" description="Click Get Started on homepage" finished-at="2026-06-23T17:26:15 NPT" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGetStarted -->
+        <test-method signature="acceptTermsAndContinue()[pri:2, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:15 NPT" name="acceptTermsAndContinue" description="Accept Terms and Conditions" finished-at="2026-06-23T17:26:17 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.clickGetStarted" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptTermsAndContinue -->
+        <test-method signature="fillAccountSetup()[pri:3, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:17 NPT" name="fillAccountSetup" description="Fill Step 1 - Account Setup" finished-at="2026-06-23T17:26:24 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.acceptTermsAndContinue" duration-ms="7250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAccountSetup -->
+        <test-method signature="verifyEmailOtp()[pri:4, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:24 NPT" name="verifyEmailOtp" description="Read OTP from Mailinator and verify email" finished-at="2026-06-23T17:26:45 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.fillAccountSetup" duration-ms="20664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailOtp -->
+        <test-method signature="fillAgencyDetails()[pri:5, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:45 NPT" name="fillAgencyDetails" description="Fill Step 2 - Agency Details" finished-at="2026-06-23T17:26:55 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.verifyEmailOtp" duration-ms="10228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAgencyDetails -->
+        <test-method signature="fillProfessionalExperience()[pri:6, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:26:55 NPT" name="fillProfessionalExperience" description="Fill Step 3 - Professional Experience" finished-at="2026-06-23T17:27:06 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.fillAgencyDetails" duration-ms="10752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillProfessionalExperience -->
+        <test-method signature="fillVerificationAndPreferences()[pri:7, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:27:06 NPT" name="fillVerificationAndPreferences" description="Fill Step 4 - Verification and Preferences" finished-at="2026-06-23T17:27:22 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.fillProfessionalExperience" duration-ms="16301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillVerificationAndPreferences -->
+        <test-method signature="verifySuccess()[pri:8, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:27:22 NPT" name="verifySuccess" description="Verify signup completed successfully" finished-at="2026-06-23T17:27:24 NPT" depends-on-methods="com.theap.signup.tests.SignupTest.fillVerificationAndPreferences" duration-ms="2404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.theap.signup.tests.SignupTest@3c4262d1]" started-at="2026-06-23T17:27:24 NPT" name="tearDown" finished-at="2026-06-23T17:27:32 NPT" duration-ms="7987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.theap.signup.tests.SignupTest -->
+    </test> <!-- Full Registration Flow -->
+  </suite> <!-- Signup Test Suite -->
+</testng-results>

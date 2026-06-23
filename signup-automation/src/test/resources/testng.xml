@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Signup Test Suite" verbose="2">
+
+  <listeners>
+    <listener class-name="com.theap.signup.utils.ReportListener"/>
+  </listeners>
+
+  <test name="Full Registration Flow" preserve-order="true">
+    <classes>
+      <class name="com.theap.signup.tests.SignupTest"/>
+    </classes>
+  </test>
+
+</suite>
